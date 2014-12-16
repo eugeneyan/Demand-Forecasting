@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1410326939470.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1403CE6E",
+    "lastKnownWriteTime" : 7741240723082584096,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "monthdays_excel",
+        "contentUrl" : "content?title=monthdays_excel&file=531714d30c6e41c199fa3ff6382b5caf.htm",
+        "displayedObservations" : 24,
+        "displayedVariables" : 1,
+        "totalObservations" : 24,
+        "variables" : 1
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

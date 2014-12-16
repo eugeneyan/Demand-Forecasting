@@ -1,0 +1,17 @@
+{
+    "contents" : "beer2 <- window(ausbeer,start=1992,end=2006-.1)\n\nbeerfit1 <- meanf(beer2,h=11)\nbeerfit2 <- rwf(beer2,h=11)\nbeerfit3 <- snaive(beer2,h=11)\n\nplot(beerfit1, plot.conf=FALSE,\n     main=\"Forecasts for quarterly beer production\")\nlines(beerfit2$mean,col=2)\nlines(beerfit3$mean,col=3)\nlines(ausbeer)\nlegend(\"topright\", lty=1, col=c(4,2,3),\n       legend=c(\"Mean method\",\"Naive method\",\"Seasonal naive method\"))\n\nbeer3 <- window(ausbeer, start=2006)\naccuracy(beerfit1, beer3)\naccuracy(beerfit2, beer3)\naccuracy(beerfit3, beer3)\n",
+    "created" : 1410235292781.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3441936665",
+    "id" : "2D22213E",
+    "lastKnownWriteTime" : 1410163434,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
